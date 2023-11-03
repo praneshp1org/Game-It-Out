@@ -11,6 +11,16 @@ Game It Out is a simple app that will help you achieve your goal by chaning your
 
 Level Up by completing tasks everyday and enjoy the you progress !
 
+## Screenshots
+
+![Profile](screenshots/1.jpg)
+![Home](screenshots/2.jpg)
+![Tasks](screenshots/3.jpg)
+![Milestones](screenshots/4.jpg)
+
+
+
+
 
 
 
