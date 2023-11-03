@@ -29,7 +29,7 @@ class ProfileInformationBox extends StatelessWidget {
                   style: TextStyleConstants.kProfileInfoTextStyle,
                 ),
                 Text(
-                  '${data.currentExpValue.toStringAsFixed(2)} exp',
+                  '${data.currentExpValue.toStringAsFixed(2)} XP',
                   style: TextStyleConstants.kProfilInfoBoldTextStyle,
                 ),
               ],
@@ -45,7 +45,7 @@ class ProfileInformationBox extends StatelessWidget {
                   style: TextStyleConstants.kProfileInfoTextStyle,
                 ),
                 Text(
-                  '${data.currentLvlCount.toString()} lvl',
+                  '${data.currentLvlCount.toString()} ',
                   style: TextStyleConstants.kProfilInfoBoldTextStyle,
                 )
               ],
