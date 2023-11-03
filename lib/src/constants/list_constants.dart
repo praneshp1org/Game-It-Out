@@ -248,7 +248,7 @@ class ListConstants {
     Achievement(
       title: 'Toddler',
       isFinished: false,
-      description: 'Reach 200 exp',
+      description: 'Reach 200 XP',
       exp: 200,
       lvl: 3,
       finished: 999999999999999,
@@ -268,7 +268,7 @@ class ListConstants {
     Achievement(
       title: 'Baby steps',
       isFinished: false,
-      description: 'Reach 1 000 exp',
+      description: 'Reach 1000 XP',
       exp: 1000,
       lvl: 6,
       finished: 999999999999999,
@@ -308,7 +308,7 @@ class ListConstants {
     Achievement(
       title: 'Moving forward',
       isFinished: false,
-      description: 'Reach 3 000 exp',
+      description: 'Reach 3000 XP',
       exp: 3000,
       lvl: 12,
       finished: 999999999999999,
@@ -378,7 +378,7 @@ class ListConstants {
     Achievement(
       title: 'Fast learner',
       isFinished: false,
-      description: 'Reach 10 000 exp',
+      description: 'Reach 10000 XP',
       exp: 10000,
       lvl: 22,
       finished: 999999999999999,
@@ -398,7 +398,7 @@ class ListConstants {
     Achievement(
       title: 'Runner',
       isFinished: false,
-      description: 'Reach 25 000 exp',
+      description: 'Reach 25000 exp',
       exp: 25000.0,
       lvl: 999999999999999,
       created: 999999999999999,
@@ -448,7 +448,7 @@ class ListConstants {
     Achievement(
       title: 'Spriner',
       isFinished: false,
-      description: 'Reach 70 000 exp',
+      description: 'Reach 70000 exp',
       exp: 70000.0,
       lvl: 999999999999999,
       created: 999999999999999,
@@ -476,9 +476,9 @@ class ListConstants {
       created: 999999999999999,
     ),
     Achievement(
-      title: 'Dog',
+      title: 'Maniac',
       isFinished: false,
-      description: 'Reach 100 000 exp',
+      description: 'Reach 100 000 XP',
       exp: 100000.0,
       lvl: 999999999999999,
       created: 999999999999999,
@@ -498,7 +498,7 @@ class ListConstants {
     Achievement(
       title: 'Lion keeper',
       isFinished: false,
-      description: 'Reach 500 000 exp',
+      description: 'Reach 500 000 XP',
       exp: 500000.0,
       lvl: 999999999999999,
       created: 999999999999999,
@@ -548,7 +548,7 @@ class ListConstants {
     Achievement(
       title: 'A milestone',
       isFinished: false,
-      description: 'Reach 1 000 000 exp',
+      description: 'Reach 1 000 000 XP',
       exp: 1000000,
       lvl: 999999999999999,
       finished: 999999999999999,

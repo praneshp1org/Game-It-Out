@@ -16,6 +16,7 @@ void main() async {
 
   await Hive.openBox('99999Box');
   WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: const MaterialApp(
+        title: 'Game It Out',
         debugShowCheckedModeBanner: false,
         home: StartTheGamePage(),
       ),

@@ -6,7 +6,7 @@ class StringConstants {
   static const kProcede = 'P R O C E E D';
   static const kPlayTitle = 'P L A Y';
   static const kDuration = 'Duration:';
-  static const kHours = 'hour/s';
+  static const kHours = 'hour/s per day';
   static const kExp = 'XP';
   static const kNewTaskTitle = 'A D D';
   static const kDifficultyHintText = 'Choose Difficulty';
@@ -44,7 +44,7 @@ class StringConstants {
   static const kProfileBottomBar = 'Profile';
   static const kLevelCompletion = 'Level completion percentage: ';
   static const kCurrentLVL = 'Current level: ';
-  static const kCureentEXP = 'Current exp gained: ';
+  static const kCureentEXP = 'Current XP gained: ';
   static const kCharacterName = 'Character Name';
   static const kEnterName = 'Enter your Name';
   static const kEnterSurname = 'Enter your Surname';

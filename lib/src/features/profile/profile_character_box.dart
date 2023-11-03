@@ -13,7 +13,7 @@ class ProfileCharacterBox extends StatelessWidget {
   Widget build(BuildContext context) {
     var pickedCharacter = Provider.of<LogicProvider>(context);
     return SizedBox(
-      height: 300.0,
+      height: 250.0,
       width: 100,
       child: ClipRRect(
         borderRadius: SizesConstants.kBorderRadius12,

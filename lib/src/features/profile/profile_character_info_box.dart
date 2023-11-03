@@ -25,7 +25,7 @@ class CharacterBoxInfo extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           borderRadius: SizesConstants.kBorderRadius12,
-          color: Colors.grey,
+          color: ColorConstatns.kMediumGrey,
           // gradient: LinearGradient(
           //   colors: ListConstants.kGradientColorList,
           // ),

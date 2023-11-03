@@ -53,13 +53,13 @@ class AchievementWidget extends StatelessWidget {
                 padding: PaddingConstants.kBasePadding10,
                 child: Icon(
                   isFinishedStatus
-                      ? IconsConstants.kTaskFinished
+                      ? IconsConstants.kAchievement
                       : IconsConstants.kToDo,
                   color: isFinishedStatus
                       ? ColorConstatns.kGreen
                       : ColorConstatns.kRed,
                 ),
-              )
+              ),
             ],
           ),
         ),
