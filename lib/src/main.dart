@@ -8,6 +8,7 @@ import 'features/achievement_components/achievement_adapter.dart';
 import 'features/timer/timer_adapter.dart';
 import 'logic/logic_provider.dart';
 import 'package:flutter/services.dart';
+import 'package:rename/rename.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -17,6 +18,8 @@ void main() async {
 
   await Hive.openBox('99999Box');
   WidgetsFlutterBinding.ensureInitialized();
+
+  // final Renamer renamer = Renamer();
 
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
