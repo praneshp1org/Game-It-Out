@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import 'features/achievement_components/achievement_adapter.dart';
 import 'features/timer/timer_adapter.dart';
 import 'logic/logic_provider.dart';
+import 'package:flutter/services.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -17,6 +18,8 @@ void main() async {
   await Hive.openBox('99999Box');
   WidgetsFlutterBinding.ensureInitialized();
 
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   runApp(const MyApp());
 }
 
